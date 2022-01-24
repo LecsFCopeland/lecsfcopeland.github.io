@@ -13,6 +13,7 @@ body{
 
 #id-div2{
 	margin-top: 32px;
+	margin-bottom:32px;
 	background-color: var(--c-blue0);
 	outline: 5px solid var(--c-yellow1);
 }
