@@ -28,6 +28,12 @@ body{
 #id-div3{
 	background-color:var(--c-blue1);
 }
+#id-div3 h3{
+	color:white;
+	text-align:center;
+	font-size:x-large;
+	font-family:serif;
+}
 
 #id-div5{
 	padding:8%;
