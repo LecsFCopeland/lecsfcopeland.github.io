@@ -1,15 +1,22 @@
 :root{
+	--c-black: #000000;
 	--c-blue0: #131374;
 	--c-yellow0: #ecec8a;
 	--c-blue1: #0000ff;
 	--c-yellow1: #ffff00;
-	//font-family: sans-serif;
+	--c-blue2: #8888ff;
+	/* font-family: sans-serif; */
 }
 body{
 	background-color: #000000;
 }
 
-
+a{
+	color:var(--c-blue2);
+}
+a:hover{
+	color:var(--c-yellow0);
+}
 
 #id-div2{
 	margin-top: 32px;
@@ -19,23 +26,32 @@ body{
 }
 #id-div2 img{
 	width: 100%;
-	height: auto;
-	//margin-top:20px;
+	/* height: auto; */
+	/* margin-top:20px; */
 }
 
 
 
 #id-div3{
-	background-color:var(--c-blue1);
+	background-color:var(--c-blue0);
+	/* padding-top:1%; */
+	/* padding-bottom:1%; */
+}
+#id-div3 img{
+	border-style: solid;
+	border-width: 5pt;
+	border-color: yellow;
+	width:100%;
+	
 }
 #id-div3 h3{
 	color:white;
 	text-align:center;
 	font-size:x-large;
-	font-family:serif;
+	font-family:sans-serif;
 }
 
-#id-div5{
+#id-div6{
 	padding:8%;
 }
 #id-div3 h1{
@@ -45,15 +61,6 @@ body{
 	font-size:xxx-large;
 }
 
-#id-div6{
-	//margin-top: 10%;
-	//background-color:brown;
-}
-
-#id-div6 h3{
-	color:white;
-	font-family:serif;
-}
 #id-div6 p{
 	word-break: break-word;
 	font-family:sans-serif;
@@ -63,50 +70,14 @@ body{
 	line-height:1.0;
 	color:white;
 }
-#id-div6 img{
+#id-div6 #id-email{
 	padding-top: 0pt;
 	padding-bottom: 25pt;
+	width:100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-/*
-#id-div2 h3	
-{
-	color:white;
-	text-align: center;
-	font-weight:normal;
+#id-div6 img{
+	width:25px;
+	float:left;
 }
 
-#id-div2
-{
-	margin-left: 25%;
-	margin-right: 25%;
-	color: white;
-}
-#id-div2 h1
-{
-	font-weight:normal;
-}
-#id-div2 h2
-{
-	font-weight:normal;
-	line-height:1;
-	height:50%;
-	
-}
-
-#id-div2 img
-{
-	width: 100%;
-}
-
-*/ 
