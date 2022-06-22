@@ -6,6 +6,9 @@
 	--c-yellow1: #ffff00;
 	--c-blue2: #8888ff;
 	/* font-family: sans-serif; */
+	
+	--c-link1: #cfcfff;
+	/* --c-link2: ; */
 }
 body{
 	background-color: #000000;
@@ -77,8 +80,9 @@ body{
 }
 
 #id-div6 a{
-	color:var(--c-blue2);
+	color:var(--c-link1);
 	text-align:center;
+	padding-left:8px;
 }
 #id-div6 a:hover{
 	color:var(--c-yellow0);
